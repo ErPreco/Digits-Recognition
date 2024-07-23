@@ -29,7 +29,7 @@ def download_dataset() -> None:
         print('Downloading dataset...')
         if not os.path.exists(_DATASET_PATH):
             os.mkdir(_DATASET_PATH)
-        kaggle.api.dataset_download_files(_KAGGLE_DATASET, path=_DATASET_PATH, unzip=False)
+        kaggle.api.dataset_download_files(_KAGGLE_DATASET, path=_DATASET_PATH, unzip=True)
         print('Dataset downloaded!')
     else:
         print('Dataset already downloaded')
