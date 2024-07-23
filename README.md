@@ -15,7 +15,6 @@ It was made using Python 3.12.4, pip 24.0 and pytorch of CUDA 12.1 package for W
 * files for model saving
   * models.txt (models hyper parameters)
   * folder for models state (.pth.tar)
-* TMNIST_Data.csv (dataset from [Kaggle](https://www.kaggle.com))
-* demo MLP model
+* TMNIST_Data.zip (dataset from [Kaggle](https://www.kaggle.com) to unzip)
 
 Fine tuning is allowed via code as shown in the main.py script: it allows fine tuning on a single paramter at a time and shows loss and accuracy graphs.
